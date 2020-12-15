@@ -1,0 +1,18 @@
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 3rem;
+}
+
+#content{
+    display: flex;
+    
+}
+aside{
+    width: 33.33%;
+    text-align: center;
+}
+article{
+    width: 80%;
+}

@@ -1,0 +1,61 @@
+.fourth-part{
+    padding-bottom: 300px ;
+    margin-left: 500px;
+    margin-right: 500px;
+ }
+ .fourth-part h1{
+    padding: 0.5em;
+    color: #fff;
+    text-shadow: 0 2px 7px rgba(0, 0, 0, .55);
+ }
+
+ .fourth-part .inner3{
+    min-height: 60vh;
+    
+    background-color: rgba(80, 209, 149, 0.95);
+    
+    color: #000;
+}
+
+form.login {
+    margin: 0 auto;
+    width: 70%;
+    color: rgb(250, 3, 147);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+form.login label {
+    width: 120px;
+    display: inline-block;
+    padding: 0.5em 0;
+    vertical-align: top;
+}
+
+form.login input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 7px;
+    width: 50%;
+}
+
+form.login input:focus {
+    outline: none;
+    border: 1px solid red;
+}
+
+
+form.login button {
+    margin-left: 130px;
+    padding: 0.8em 3em;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+}
+
+form.login button:active {
+    border-radius: 10px;
+    background-color: red;
+    outline: none;
+}

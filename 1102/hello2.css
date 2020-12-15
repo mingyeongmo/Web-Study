@@ -1,0 +1,29 @@
+ .third-part{
+    
+    margin-left: 150px;
+    margin-right: 150px;
+ }
+ .third-part h1{
+    padding: 0.5em;
+    color: #fff;
+    text-shadow: 0 2px 7px rgba(0, 0, 0, .55);
+ }
+
+ .third-part .inner2{
+    min-height: 100vh;
+    
+    background-color : rgba(253, 253, 253, 0.7);
+    
+    color: #000;
+}
+.young{
+    display: flex;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(52, 61, 177);
+    
+    
+}
+
+
+

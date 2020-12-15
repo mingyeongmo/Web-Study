@@ -1,0 +1,127 @@
+body{
+    min-width: 560px;
+    
+}
+
+
+/*header*/
+nav #logo{
+    
+    padding-top: 5px;
+    padding-left : 10px;
+
+}
+nav{
+    background-color: orange;
+    display: flex; /*수평 정렬*/
+    justify-content: space-between; /*안에 있는 내용물의 정렬*/
+    min-width: 500px;
+}
+nav ul{
+    display: flex; /*수평 정렬*/
+    align-items: center;
+    margin-right: 80px;
+    list-style-type: none;
+}
+nav ul li {
+
+    align-items: center;
+    font-size: small;
+    margin-left: 100px;
+}
+nav ul li a:hover {
+    color: blue;
+    
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.35s;
+    
+    font-size: x-large;
+}
+.back-image1,
+.back-image2,
+.back-image3,
+.back-image4
+ {
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+}
+.back-image1 {
+    background-image: url(../1102/bg1.jpg);
+}
+
+.back-image2 {
+    background-image: url("../1102/stroybg.jpeg");
+}
+.back-image3 {
+    background-image: url(../1102/hello3bg.png);
+}
+.back-image4{
+    background-image: url(../1102/hello2bg.jpg);
+}
+
+
+.first-part{
+    padding-bottom: 800px ;
+    
+}
+.first-part h1{
+    padding: 0.5em;
+    color: white;
+    text-align: center;
+    white-space: pre-line;
+    
+    text-shadow: 0 2px 7px rgba(42, 42, 42, 0.55);
+
+}
+.second-part{
+    
+    padding-bottom: 500px ;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.second-part h2{
+    padding: 0.5em;
+    color: #fff;
+    text-shadow: 0 2px 7px rgba(0, 0, 0, .55);
+}
+
+.second-part .inner{
+    min-height: 60vh;
+    
+    background-color: rgba(233, 183, 183, 0.95);
+    padding: 1em 2em;
+    color: #000;
+}
+
+
+.img-left {
+    padding: 0.2em 1em;
+    float: left;
+    padding-left: 0;
+}
+
+.img-40 {
+    width: 30%;
+}
+
+footer {
+    padding: .75em;
+    background-color: rgb(255, 188, 4);
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
